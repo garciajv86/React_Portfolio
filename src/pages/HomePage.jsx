@@ -5,8 +5,8 @@ import '../styles/HomePage.css';
 const HomePage = () => {
   return (
     <div id="header">
-      <div class="container">
-        <div class="header-text">
+      <div className="container">
+        <div className="header-text">
           <p>Full-Stack Web Designer</p>
           <h1>Hi, I'm <span>Joshua</span><br />Garcia From Kansas</h1>
         </div>
