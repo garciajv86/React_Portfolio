@@ -1,17 +1,17 @@
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
-// import AboutMePage from './pages/AboutMePage';
+import AboutMePage from './pages/AboutMePage';
 // import ProjectsPage from './pages/ProjectsPage';
 // import ContactPage from './pages/ContactPage';
 // import ResumePage from './pages/ResumePage';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import './index.css';
 
 
 const router = createBrowserRouter([
@@ -24,10 +24,10 @@ const router = createBrowserRouter([
         index: true,
         element: <HomePage />,
       },
-      // {
-      //   path: 'about',
-      //   element: <AboutMePage />,
-      // },
+      {
+        path: 'about',
+        element: <AboutMePage />,
+      },
       // {
       //   path: 'projects',
       //   element: <ProjectsPage />,
