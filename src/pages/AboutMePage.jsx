@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/AboutMePage.css';
 import '../components/Tabs.jsx';
-import Josh from "../assets/images/Josh_Logo.png"
+import Background from "../assets/images/Background.jpg"
 
 export default function AboutMePage() {
   const [activeTab, setActiveTab] = useState('skills'); // State to track active tab
@@ -16,7 +16,7 @@ export default function AboutMePage() {
       <div className="container">
         <div className="row">
           <div className="about-col-1">
-            <img src={Josh} alt="" />
+            <img src={Background} alt="" />
           </div>
           <div className="about-col-2">
             <h1 className="sub-title">About Me</h1>
