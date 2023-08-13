@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function Tabs() {
-  const [activeTab, setActiveTab] = useState('skills');
+  const [activeTab, setActiveTab] = useState("skills");
 
   const openTab = (tabName) => {
     setActiveTab(tabName);
@@ -13,7 +13,9 @@ function Tabs() {
         {tabLinks.map((tabLink, index) => (
           <p
             key={index}
-            className={`tab-links ${activeTab === tabLink ? 'active-link' : ''}`}
+            className={`tab-links ${
+              activeTab === tabLink ? "active-link" : ""
+            }`}
             onClick={() => openTab(tabLink)}
           >
             {tabLink}
@@ -24,7 +26,9 @@ function Tabs() {
         {tabContents.map((tabContent, index) => (
           <div
             key={index}
-            className={`tab-content ${activeTab === tabContent.name ? 'active-tab' : ''}`}
+            className={`tab-content ${
+              activeTab === tabContent.name ? "active-tab" : ""
+            }`}
             id={tabContent.name}
           >
             {tabContent.content}

@@ -1,22 +1,21 @@
 // import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import App from './App';
-import ErrorPage from './pages/ErrorPage';
-import HomePage from './pages/HomePage';
-import AboutMePage from './pages/AboutMePage';
-import ProjectsPage from './pages/ProjectsPage';
-import ContactPage from './pages/ContactPage';
-import ResumePage from './pages/ResumePage';
+import App from "./App";
+import ErrorPage from "./pages/ErrorPage";
+import HomePage from "./pages/HomePage";
+import AboutMePage from "./pages/AboutMePage";
+import ProjectsPage from "./pages/ProjectsPage";
+import ContactPage from "./pages/ContactPage";
+import ResumePage from "./pages/ResumePage";
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import './index.css';
 
-
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
@@ -25,25 +24,25 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: 'about',
+        path: "about",
         element: <AboutMePage />,
       },
       {
-        path: 'projects',
+        path: "projects",
         element: <ProjectsPage />,
       },
       {
-        path: 'contact',
+        path: "contact",
         element: <ContactPage />,
       },
       {
-        path: 'resume',
+        path: "resume",
         element: <ResumePage />,
       },
-    ]
-  }
-])
+    ],
+  },
+]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
 );

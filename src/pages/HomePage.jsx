@@ -1,6 +1,5 @@
 import React from "react";
-import '../styles/HomePage.css';
-
+import "../styles/HomePage.css";
 
 const HomePage = () => {
   return (
@@ -8,7 +7,11 @@ const HomePage = () => {
       <div className="container">
         <div className="header-text">
           <p>Full-Stack Web Designer</p>
-          <h1>Hi, I'm <span>Joshua</span><br />Garcia From Kansas</h1>
+          <h1>
+            Hi, I'm <span>Joshua</span>
+            <br />
+            Garcia From Kansas
+          </h1>
         </div>
       </div>
     </div>

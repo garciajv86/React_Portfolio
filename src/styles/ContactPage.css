@@ -14,6 +14,7 @@
 }
 .social-icons {
   margin-top: 30px;
+  margin-bottom: 120%;
 }
 .social-icons a {
   text-decoration: none;
@@ -52,15 +53,4 @@ form .btn2 {
   font-size: 18px;
   margin-top: 20px;
   cursor: pointer;
-}
-.copyright {
-  width: 100%;
-  text-align: center;
-  padding: 25px 0;
-  background: #262626;
-  font-weight: 300;
-  margin-top: 20px;
-}
-.copyright i {
-  color: #ff004f;
 }

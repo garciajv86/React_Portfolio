@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import '../styles/AboutMePage.css';
-import '../components/Tabs.jsx';
-import Background from "../assets/images/Background.png"
+import React, { useState } from "react";
+import "../styles/AboutMePage.css";
+import "../components/Tabs.jsx";
+import Background from "../assets/images/Background.png";
 
 export default function AboutMePage() {
-  const [activeTab, setActiveTab] = useState('skills'); // State to track active tab
+  const [activeTab, setActiveTab] = useState("skills"); // State to track active tab
 
   // Function to handle tab clicks
   const openTab = (tabName) => {
@@ -33,64 +33,105 @@ export default function AboutMePage() {
             </p>
             <div className="tab-titles">
               <p
-                className={`tab-links ${activeTab === 'skills' ? 'active-link' : ''}`}
-                onClick={() => openTab('skills')}
+                className={`tab-links ${
+                  activeTab === "skills" ? "active-link" : ""
+                }`}
+                onClick={() => openTab("skills")}
               >
                 Skills
               </p>
               <p
-                className={`tab-links ${activeTab === 'experience' ? 'active-link' : ''}`}
-                onClick={() => openTab('experience')}
+                className={`tab-links ${
+                  activeTab === "experience" ? "active-link" : ""
+                }`}
+                onClick={() => openTab("experience")}
               >
                 Experience
               </p>
               <p
-                className={`tab-links ${activeTab === 'education' ? 'active-link' : ''}`}
-                onClick={() => openTab('education')}
+                className={`tab-links ${
+                  activeTab === "education" ? "active-link" : ""
+                }`}
+                onClick={() => openTab("education")}
               >
                 Education
               </p>
             </div>
             {/* Render the appropriate tab content based on activeTab */}
-            <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' : ''}`} id="skills">
+            <div
+              className={`tab-contents ${
+                activeTab === "skills" ? "active-tab" : ""
+              }`}
+              id="skills"
+            >
               {/* Skills tab content */}
               <ul>
                 <li>
-                  <span>MERN Stack</span><br />Designing Full-Stack Websites
+                  <span>MERN Stack</span>
+                  <br />
+                  Designing Full-Stack Websites
                 </li>
                 <li>
-                  <span>MySQL</span><br />Designing/Implementing MySQL Databases
+                  <span>MySQL</span>
+                  <br />
+                  Designing/Implementing MySQL Databases
                 </li>
                 <li>
-                  <span>MongoDB</span><br />Designing/Implementing MongoDB Databases
+                  <span>MongoDB</span>
+                  <br />
+                  Designing/Implementing MongoDB Databases
                 </li>
               </ul>
             </div>
-            <div className={`tab-contents ${activeTab === 'experience' ? 'active-tab' : ''}`} id="experience">
+            <div
+              className={`tab-contents ${
+                activeTab === "experience" ? "active-tab" : ""
+              }`}
+              id="experience"
+            >
               {/* Experience tab content */}
               <ul>
                 <li>
-                  <span>03/2023 - 09/2023</span><br />Full-Stack Web Dev Training at The University of Kansas(KU)
+                  <span>03/2023 - 09/2023</span>
+                  <br />
+                  Full-Stack Web Dev Training at The University of Kansas(KU)
                 </li>
                 <li>
-                  <span>2022 - 2023</span><br />Programming in Python Training on Udemy
+                  <span>2022 - 2023</span>
+                  <br />
+                  Programming in Python Training on Udemy
                 </li>
                 <li>
-                  <span>2011</span><br />Strategic Team Building Skills at Garden City Community College(GCCC)
+                  <span>2011</span>
+                  <br />
+                  Strategic Team Building Skills at Garden City Community
+                  College(GCCC)
                 </li>
               </ul>
             </div>
-            <div className={`tab-contents ${activeTab === 'education' ? 'active-tab' : ''}`} id="education">
+            <div
+              className={`tab-contents ${
+                activeTab === "education" ? "active-tab" : ""
+              }`}
+              id="education"
+            >
               {/* Education tab content */}
               <ul>
                 <li>
-                  <span>2023</span><br />Full-Stack Web Dev Training at The University of Kansas(KU)
+                  <span>2023</span>
+                  <br />
+                  Full-Stack Web Dev Training at The University of Kansas(KU)
                 </li>
                 <li>
-                  <span>2023</span><br />Full-Stack Web Development Certificate from The University of Kansas(KU)
+                  <span>2023</span>
+                  <br />
+                  Full-Stack Web Development Certificate from The University of
+                  Kansas(KU)
                 </li>
                 <li>
-                  <span>2022</span><br />Programming in Python Training on Udemy
+                  <span>2022</span>
+                  <br />
+                  Programming in Python Training on Udemy
                 </li>
               </ul>
             </div>
@@ -100,5 +141,3 @@ export default function AboutMePage() {
     </div>
   );
 }
-
-
