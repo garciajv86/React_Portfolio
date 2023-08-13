@@ -1,5 +1,24 @@
+.sub-title {
+  display: flex;
+  justify-content: center;
+}
+
 .btn.btn2 {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   background: #ff004f;
-  margin-bottom: 50%;
+  margin-bottom: .05%;
+}
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+  margin: 20px auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.resume-image {
+  max-width: 49.8%;
+  height: auto;
 }
