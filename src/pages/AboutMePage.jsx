@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/AboutMePage.css';
 import '../components/Tabs.jsx';
-import Background from "../assets/images/Background.jpg"
+import Background from "../assets/images/Background.png"
 
 export default function AboutMePage() {
   const [activeTab, setActiveTab] = useState('skills'); // State to track active tab
