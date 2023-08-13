@@ -7,7 +7,7 @@ import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
 import AboutMePage from './pages/AboutMePage';
 import ProjectsPage from './pages/ProjectsPage';
-// import ContactPage from './pages/ContactPage';
+import ContactPage from './pages/ContactPage';
 // import ResumePage from './pages/ResumePage';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -32,10 +32,10 @@ const router = createBrowserRouter([
         path: 'projects',
         element: <ProjectsPage />,
       },
-      // {
-      //   path: 'contact',
-      //   element: <ContactPage />,
-      // },
+      {
+        path: 'contact',
+        element: <ContactPage />,
+      },
       // {
       //   path: 'resume',
       //   element: <ResumePage />,
