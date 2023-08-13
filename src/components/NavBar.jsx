@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/images/Josh_Logo.png";
 import "../styles/NavBar.css";
 
+//* Navigation bar to display on all pages
 const NavBar = () => {
   return (
     <nav>

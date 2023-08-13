@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Footer.css";
 
+//* Footer to display on my pages
 const Footer = () => {
   return (
     <div className="copyright">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+//* Tabs for my about me page that create a responsive effect! 
 function Tabs() {
   const [activeTab, setActiveTab] = useState("skills");
 

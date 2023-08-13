@@ -1,6 +1,7 @@
 import React from "react";
-import "../styles/ResumePage.css"; // Import your CSS for ResumePage
+import "../styles/ResumePage.css"; //* Import your CSS for ResumePage
 
+//* Grabbing the resumes pdf version for download and the jpeg versions for displaying
 export default function ResumePage() {
   const pdfUrl = "/Resume.pdf";
   const imageUrl = "/ResumeImage.jpeg";
@@ -11,9 +12,11 @@ export default function ResumePage() {
       <div className="container">
         <h1 className="sub-title">My Resume</h1>
         <div className="image-container">
+          //* Displays the Resume
           <img src={imageUrl} alt="Resume" className="resume-image" />
           <img src={imageUrl2} alt="Resume" className="resume-image" />
         </div>
+        //* Downloads the Resume
         <a href={pdfUrl} download className="btn btn2">
           Download Resume
         </a>

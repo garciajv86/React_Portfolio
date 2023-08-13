@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/ContactPage.css"; // Import your CSS for ContactPage
+import "../styles/ContactPage.css"; //* Import your CSS for ContactPage
 
 export default function ContactPage() {
   return (

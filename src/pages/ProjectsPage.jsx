@@ -1,9 +1,10 @@
 import React from "react";
-import "../styles/ProjectsPage.css"; // Import the CSS file for styling
+import "../styles/ProjectsPage.css"; //* Import the CSS file for styling
 import project1Image from "../assets/images/work-1.png";
 import project2Image from "../assets/images/work-2.png";
 import project3Image from "../assets/images/work-3.png";
 
+//* All 6 of my projects
 export default function ProjectsPage() {
   return (
     <div id="portfolio">
@@ -91,6 +92,7 @@ export default function ProjectsPage() {
             </div>
           </div>
         </div>
+        //* Button at the moment doesn't do as expected, not sure what I want to do with it yet.
         <a href="#" className="btn">
           See more
         </a>

@@ -4,9 +4,9 @@ import "../components/Tabs.jsx";
 import Background from "../assets/images/Background.png";
 
 export default function AboutMePage() {
-  const [activeTab, setActiveTab] = useState("skills"); // State to track active tab
+  const [activeTab, setActiveTab] = useState("skills"); //* State to track active tab
 
-  // Function to handle tab clicks
+  //* Function to handle tab clicks
   const openTab = (tabName) => {
     setActiveTab(tabName);
   };

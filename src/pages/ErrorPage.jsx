@@ -1,5 +1,6 @@
 import { useRouteError } from "react-router-dom";
 
+//* To handle Error with my own message
 export default function ErrorPage() {
   const error = useRouteError();
   console.error(error);

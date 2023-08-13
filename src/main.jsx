@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -12,6 +12,7 @@ import ResumePage from "./pages/ResumePage";
 
 import "./index.css";
 
+//* The router to render my pages on the set path
 const router = createBrowserRouter([
   {
     path: "/",
