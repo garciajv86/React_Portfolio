@@ -8,7 +8,7 @@ import HomePage from './pages/HomePage';
 import AboutMePage from './pages/AboutMePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
-// import ResumePage from './pages/ResumePage';
+import ResumePage from './pages/ResumePage';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import './index.css';
@@ -36,10 +36,10 @@ const router = createBrowserRouter([
         path: 'contact',
         element: <ContactPage />,
       },
-      // {
-      //   path: 'resume',
-      //   element: <ResumePage />,
-      // },
+      {
+        path: 'resume',
+        element: <ResumePage />,
+      },
     ]
   }
 ])
