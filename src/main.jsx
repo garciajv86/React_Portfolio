@@ -10,8 +10,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
 import ResumePage from "./pages/ResumePage";
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './index.css';
+import "./index.css";
 
 const router = createBrowserRouter([
   {

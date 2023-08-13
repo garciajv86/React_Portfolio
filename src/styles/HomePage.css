@@ -9,3 +9,29 @@
 .container {
   padding: 10px 10%;
 }
+
+/* ---------------css for small screens----------- */
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    position: relative;
+  }
+  .copyright {
+    bottom: 0;
+  }
+}
+/* css for medium screens */
+@media only screen and (max-width: 985px) {
+  #header {
+    background-position: 100% 90%;
+  }
+  .container {
+    padding: 2%;
+  }
+}
+/* css for medium-big screens */
+@media only screen and (max-width: 1190px) {
+  #header {
+    background-image: url(../assets/images/MobileBackground.png);
+  }
+}
