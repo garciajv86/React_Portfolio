@@ -20,7 +20,7 @@ This project is a REACT Portfolio project that utilizes vite. This is a front en
 ## Link
 
 Below are links to the deployed app and the repo:<br>
-[React_Portfolio]()<br>
+[React_Portfolio](https://j0shuasportfolio.netlify.app/)<br>
 [Projects_Repo](https://github.com/garciajv86/React_Portfolio)
 
 ## ScreenShot

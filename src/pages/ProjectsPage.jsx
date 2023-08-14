@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/ProjectsPage.css"; //* Import the CSS file for styling
+import "../styles/ProjectsPage.css"; //* Import CSS file for styling
 import project1Image from "../assets/images/work-1.png";
 import project2Image from "../assets/images/work-2.png";
 import project3Image from "../assets/images/work-3.png";
