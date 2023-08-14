@@ -15,7 +15,11 @@ export default function ResumePage() {
           <img src={imageUrl} alt="Resume" className="resume-image" />
           <img src={imageUrl2} alt="Resume" className="resume-image" />
         </div>
-        <a href={pdfUrl} download className="btn btn2">
+        <a
+          href={pdfUrl}
+          download="Joshua Garcia's Resume.pdf"
+          className="btn btn2"
+        >
           Download Resume
         </a>
       </div>
