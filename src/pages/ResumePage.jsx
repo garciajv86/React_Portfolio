@@ -12,11 +12,9 @@ export default function ResumePage() {
       <div className="container">
         <h1 className="sub-title">My Resume</h1>
         <div className="image-container">
-          //* Displays the Resume
           <img src={imageUrl} alt="Resume" className="resume-image" />
           <img src={imageUrl2} alt="Resume" className="resume-image" />
         </div>
-        //* Downloads the Resume
         <a href={pdfUrl} download className="btn btn2">
           Download Resume
         </a>

@@ -92,7 +92,6 @@ export default function ProjectsPage() {
             </div>
           </div>
         </div>
-        //* Button at the moment doesn't do as expected, not sure what I want to do with it yet.
         <a href="#" className="btn">
           See more
         </a>
