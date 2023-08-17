@@ -8,12 +8,12 @@ const Project = ({ title, description, image, link, repoLink }) => {
       <div className="layer">
         <h3>{title}</h3>
         <p>{description}</p>
-        <a href={link}>
-          <i className="fa-solid fa-up-right-from-square"></i>
+        <a href={link}  className="fa-solid fa-up-right-from-square">
+        <span>Website</span>
         </a>
         {/* GitHub Repo Link */}
-        <a href={repoLink} target="_blank" rel="noopener noreferrer">
-          Repo
+        <a href={repoLink} target="_blank" rel="noopener noreferrer" className="fa-solid fa-up-right-from-square">
+          <span>Repo</span>
         </a>
       </div>
     </div>
