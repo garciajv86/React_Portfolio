@@ -18,6 +18,7 @@ export default function ProjectsPage() {
                 description={project.description}
                 image={project.image}
                 link={project.link}
+                repoLink={project.repoLink}
               />
             ))}
           </>
