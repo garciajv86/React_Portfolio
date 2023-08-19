@@ -84,12 +84,12 @@
     .copyright {
       margin-top: 190px;
     }
-  } 
+  }
   @media only screen and (max-width: 1038px) {
     .copyright {
       margin-top: 840px;
     }
-  } 
+  }
   @media only screen and (max-width: 601px) {
     .sub-title {
       margin: 40px 0 0 150px;
@@ -110,7 +110,7 @@
       position: relative;
       margin-top: 2270px;
     }
-  } 
+  }
   @media only screen and (max-width: 500px) {
     .sub-title {
       margin: 40px 0 0 120px;
@@ -122,3 +122,4 @@
       margin: 0 0 0 160px;
     }
   }
+}
