@@ -75,20 +75,27 @@
   background: #ff004f;
 }
 /* added the css to have a more responsive design on my Projects Page */
-
+@media only screen and (max-width: 602px) {
+  .copyright {
+    margin-top: 2600px;
+  }
+}
 @media only screen and (max-width: 601px) {
   .sub-title {
-    margin: 40px 0 0 150px;
+    margin: 0 0 0 100px;
   }
   .btn {
     position: absolute;
     width: 172px;
     height: 40px;
-    margin: 0 0 0 200px;
+    margin: 20px 0 0 140px;
   }
   .work-list {
     position: absolute;
     margin: 100px;
+  }
+  .copyright {
+    margin-top: 1600px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -97,5 +104,22 @@
   }
   .btn {
     margin: 0 0 0 160px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .sub-title {
+    font-size: 40px;
+  }
+  .btn {
+    font-size: 10px;
+    width: 146px;
+    height: 40px;
+    margin: 20px 0 0 135px;
+  }
+  nav {
+    justify-content: center;
+  }
+  nav span {
+    font-size: 8px;
   }
 }

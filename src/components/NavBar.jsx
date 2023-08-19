@@ -10,19 +10,19 @@ const NavBar = () => {
       <img src={logo} className="logo" alt="Logo" />
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/"><span>Home</span></Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about"><span>About</span></Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects"><span>Projects</span></Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact"><span>Contact</span></Link>
         </li>
         <li>
-          <Link to="/resume">Resume</Link>
+          <Link to="/resume"><span>Resume</span></Link>
         </li>
       </ul>
     </nav>
