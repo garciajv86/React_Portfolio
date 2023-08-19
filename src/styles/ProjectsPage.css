@@ -74,3 +74,51 @@
 .btn:hover {
   background: #ff004f;
 }
+//* added the css to have a more responsive design on my Projects Page *//
+@media only screen and (max-width: 2125px) {
+  .copyright {
+    position: absolute;
+    margin-top: 135px;
+  }
+  @media only screen and (max-width: 1400px) {
+    .copyright {
+      margin-top: 190px;
+    }
+  } 
+  @media only screen and (max-width: 1038px) {
+    .copyright {
+      margin-top: 840px;
+    }
+  } 
+  @media only screen and (max-width: 601px) {
+    .sub-title {
+      margin: 40px 0 0 150px;
+    }
+    .btn {
+      position: absolute;
+      width: 172px;
+      height: 40px;
+      margin: 0 0 0 200px;
+    }
+    .work-list {
+      position: absolute;
+      margin: 100px;
+    }
+    .copyright {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      margin-top: 2270px;
+    }
+  } 
+  @media only screen and (max-width: 500px) {
+    .sub-title {
+      margin: 40px 0 0 120px;
+    }
+    .copyright {
+      margin-top: 1550px;
+    }
+    .btn {
+      margin: 0 0 0 160px;
+    }
+  }
