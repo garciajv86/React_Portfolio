@@ -11,13 +11,11 @@
 }
 
 /* ---------------css for small screens----------- */
-@media only screen and (max-width: 600px) {
-  .container {
-    display: flex;
-    position: relative;
-  }
-  .copyright {
-    bottom: 0;
+
+/* css for medium-big screens */
+@media only screen and (max-width: 1190px) {
+  #header {
+    background-image: url(../assets/images/MobileBackground.png);
   }
 }
 /* css for medium screens */
@@ -29,9 +27,9 @@
     padding: 2%;
   }
 }
-/* css for medium-big screens */
-@media only screen and (max-width: 1190px) {
-  #header {
-    background-image: url(../assets/images/MobileBackground.png);
-  }
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    position: relative;
+}
 }
