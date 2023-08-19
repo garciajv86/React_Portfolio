@@ -74,7 +74,7 @@
 .btn:hover {
   background: #ff004f;
 }
-//* added the css to have a more responsive design on my Projects Page *//
+/* added the css to have a more responsive design on my Projects Page */
 @media only screen and (max-width: 2125px) {
   .copyright {
     position: absolute;
