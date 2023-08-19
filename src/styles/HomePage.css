@@ -10,15 +10,14 @@
   padding: 10px 10%;
 }
 
-/* ---------------css for small screens----------- */
+/* ---------------css for responsive design----------- */
 
-/* css for medium-big screens */
+
 @media only screen and (max-width: 1190px) {
   #header {
     background-image: url(../assets/images/MobileBackground.png);
   }
 }
-/* css for medium screens */
 @media only screen and (max-width: 985px) {
   #header {
     background-position: 100% 90%;
@@ -27,9 +26,27 @@
     padding: 2%;
   }
 }
+@media only screen and (max-width: 915px) {
+  #header {
+    background-position: 100% 10%;
+  }
+  .header-text {
+    font-size: 18px;
+  }
+  .header-text h1 {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  #header {
+    background-size: 500px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .container {
-    display: flex;
-    position: relative;
-}
+    position: absolute;
+  }
+  #header {
+    background-position: 100% 110%;
+  }
 }
