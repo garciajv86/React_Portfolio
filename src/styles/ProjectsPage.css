@@ -97,20 +97,49 @@
 }
 @media only screen and (max-width: 601px) {
   .sub-title {
-    margin: 0 0 0 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 1px;
   }
   .btn {
-    position: absolute;
-    width: 172px;
-    height: 40px;
-    margin: 20px 0 0 140px;
+    display: flex;
+    justify-content: center;
+    font-size: 9px;
+    width: 142px;
+    margin-top: 10px;
   }
   .work-list {
     position: absolute;
     margin: 100px;
   }
   .copyright {
-    margin-top: 1600px;
+    margin-top: 2800px;
+  }
+  nav span {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sub-title {
+    margin-left: 120px;
+  }
+  .btn {
+    margin-left: 155px;
+  }
+  .copyright {
+    margin-top: 1700px;
+  }
+  nav span {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 565px) {
+  nav span {
+    font-size: 10px;
+  }
+  nav {
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -131,9 +160,7 @@
     height: 40px;
     margin: 20px 0 0 135px;
   }
-  nav {
-    justify-content: center;
-  }
+  
   nav span {
     font-size: 8px;
   }
