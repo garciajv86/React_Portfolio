@@ -75,9 +75,24 @@
   background: #ff004f;
 }
 /* added the css to have a more responsive design on my Projects Page */
-@media only screen and (max-width: 602px) {
+@media only screen and (max-width: 1763px) {
   .copyright {
-    margin-top: 2600px;
+    margin-top: 300px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .copyright {
+    margin-top: 500px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .copyright {
+    margin-top: 800px;
+  }
+}
+@media only screen and (max-width: 865px) {
+  .copyright {
+    margin-top: 1600px;
   }
 }
 @media only screen and (max-width: 601px) {
