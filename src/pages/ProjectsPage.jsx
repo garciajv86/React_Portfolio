@@ -1,5 +1,7 @@
 import React from "react";
-import "../styles/ProjectsPage.css"; //* Import CSS file for styling
+//* Import CSS file for styling
+import "../styles/ProjectsPage.css";
+//* Import the Projects Component and the Data
 import Project from "../components/Project";
 import projects from "../data/Projects.js";
 
