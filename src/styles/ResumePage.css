@@ -21,6 +21,7 @@
   max-width: 49.8%;
   height: auto;
 } */
+/* Media Queries */
 @media screen and (max-width: 630px) {
   h1.sub-title {
     font-size: 35px;
