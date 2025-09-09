@@ -44,12 +44,12 @@ const projects = [
     repoLink: "https://github.com/garciajv86/work_day_scheduler",
   },
   {
-    title: "PWA Text Editor",
+    title: "KCIA",
     description:
-      "This project is a PWA app that is a text editor users can download. There is an install button the user can use to install the app and use offline.",
+      "The Kansas Council of Instructional Administrators (KCIA) website is an informational platform for Chief Academic Officers from public, two-year community and technical colleges in Kansas.",
     image: project3Image,
-    link: "https://pwa-txt-edit0r-d8f3fd166bdc.herokuapp.com/",
-    repoLink: "https://github.com/garciajv86/PWA_Text_Editor",
+    link: "https://kcia.gcccks.edu/",
+    repoLink: "https://github.com/garciajv86/KCIA",
   },
   //* Add more projects here
 ];
