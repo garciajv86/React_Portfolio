@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/ContactPage.css"; //* Import CSS for ContactPage
 
 export default function ContactPage() {

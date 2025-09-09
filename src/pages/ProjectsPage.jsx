@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 //* Import CSS file for styling
 import "../styles/ProjectsPage.css";
 //* Import the Projects Component and the Data

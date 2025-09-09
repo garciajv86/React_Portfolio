@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 //* Tabs for my about me page that create a responsive effect! 
 function Tabs() {

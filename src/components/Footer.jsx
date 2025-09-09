@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../styles/Footer.css";
 
 //* Footer to display on my pages

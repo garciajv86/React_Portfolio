@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/AboutMePage.css";
 import "../components/Tabs.jsx";
 import Background from "../assets/images/Background.png";
