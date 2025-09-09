@@ -7,22 +7,34 @@ import "../styles/NavBar.css";
 const NavBar = () => {
   return (
     <nav>
-      <img src={logo} className="logo" alt="Logo" />
+      <Link to="/">
+        <img src={logo} className="logo" alt="Logo" />
+      </Link>
       <ul>
         <li>
-          <Link to="/"><span>Home</span></Link>
+          <Link to="/">
+            <span>Home</span>
+          </Link>
         </li>
         <li>
-          <Link to="/about"><span>About</span></Link>
+          <Link to="/about">
+            <span>About</span>
+          </Link>
         </li>
         <li>
-          <Link to="/projects"><span>Projects</span></Link>
+          <Link to="/projects">
+            <span>Projects</span>
+          </Link>
         </li>
         <li>
-          <Link to="/contact"><span>Contact</span></Link>
+          <Link to="/contact">
+            <span>Contact</span>
+          </Link>
         </li>
         <li>
-          <Link to="/resume"><span>Resume</span></Link>
+          <Link to="/resume">
+            <span>Resume</span>
+          </Link>
         </li>
       </ul>
     </nav>
