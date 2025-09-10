@@ -1,6 +1,6 @@
 #portfolio {
   padding: 50px 0px;
-  height: 85vh;
+  min-height: 0;
 }
 .work-list {
   display: grid;
@@ -75,26 +75,6 @@
   background: #ff004f;
 }
 /* added the css to have a more responsive design on my Projects Page */
-@media only screen and (max-width: 1763px) {
-  .copyright {
-    margin-top: 300px;
-  }
-}
-@media only screen and (max-width: 1500px) {
-  .copyright {
-    margin-top: 500px;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .copyright {
-    margin-top: 800px;
-  }
-}
-@media only screen and (max-width: 865px) {
-  .copyright {
-    margin-top: 1600px;
-  }
-}
 @media only screen and (max-width: 601px) {
   .sub-title {
     display: flex;
@@ -110,11 +90,7 @@
     margin-top: 10px;
   }
   .work-list {
-    position: absolute;
     margin: 100px;
-  }
-  .copyright {
-    margin-top: 2800px;
   }
   nav span {
     font-size: 14px;
@@ -126,9 +102,6 @@
   }
   .btn {
     margin-left: 155px;
-  }
-  .copyright {
-    margin-top: 1700px;
   }
   nav span {
     font-size: 14px;
@@ -160,7 +133,7 @@
     height: 40px;
     margin: 20px 0 0 135px;
   }
-  
+
   nav span {
     font-size: 8px;
   }

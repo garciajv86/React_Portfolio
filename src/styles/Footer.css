@@ -5,29 +5,8 @@
   padding: 25px 0%;
   background: #262626;
   font-weight: 300;
-  margin-top: auto;
 }
 .copyright i {
   color: #ff004f;
 }
 
-@media only screen and (max-width: 2125px) {
-  .copyright {
-    margin-top: 100px;
-  }
-}
-@media only screen and (max-width: 1763px) {
-  .copyright {
-    margin-top: 150px;
-  }
-}
-@media only screen and (max-width: 1400px) {
-  .copyright {
-    margin-top: 200px;
-  }
-}
-@media only screen and (max-width: 1038px) {
-  .copyright {
-    margin-top: 835px;
-  }
-}

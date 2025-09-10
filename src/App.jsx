@@ -5,13 +5,13 @@ import Footer from "./components/Footer";
 function App() {
   //* The Outlet component will conditionally swap between the different pages according to the URL
   return (
-    <>
+    <div className="app-layout">
       <NavBar />
-      <Outlet />
-      <div>
-        <Footer />
-      </div>
-    </>
+      <main className="main-content">
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
   );
 }
 

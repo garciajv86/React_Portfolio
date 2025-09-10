@@ -4,9 +4,28 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+
+html, body, #root {
+  height: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 body {
   background: #000000;
   color: #fff;
+}
+
+.main-content {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ---------------css for small screens----------- */
