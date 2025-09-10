@@ -1,7 +1,7 @@
 // import React from "react";
 import "../styles/ResumePage.css"; //* Import CSS for ResumePage
 
-//* Grabbing the resumes pdf version for download and the jpeg versions for displaying
+//* Grabbing the resumes pdf version for download and the png versions for displaying
 export default function ResumePage() {
   const pdfUrl = "/Resume.pdf";
   const imageUrl = "/Page1.png";
