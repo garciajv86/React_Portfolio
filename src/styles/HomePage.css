@@ -1,101 +1,179 @@
 #header {
   width: 100%;
-  height: 85vh;
+  min-height: 85vh;
   background-image: url(../assets/images/DesktopBackground.png);
   background-size: 900px;
   background-repeat: no-repeat;
   background-position: 100% 0;
+  display: flex;
+  align-items: center;
 }
+
 .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 10px 10%;
+  display: flex;
+  align-items: center;
+  min-height: 85vh;
 }
 
-/* ---------------css for responsive design----------- */
+.header-text {
+  flex: 1 1 400px;
+  text-align: left;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6); /* Optional: subtle bg for contrast */
+  padding: 40px 32px;
+  border-radius: 12px;
+  max-width: 600px;
+}
 
-@media only screen and (max-width: 1650px) {
+.header-text h1 {
+  font-size: 48px;
+}
+
+.header-text p {
+  font-size: 22px;
+}
+
+/* ----------- Tablets ----------- */
+@media (max-width: 900px) {
+  #header {
+    background-size: 400px;
+    background-position: 100% 20%;
+  }
+  .container {
+    padding: 10px 5%;
+    min-height: 60vh;
+  }
   .header-text {
-    margin-left: 300px;
-    margin-right: auto;
-    text-align: left;
-    max-width: 600px;
-    padding-left: 50px;
+    padding: 24px 12px;
+    max-width: 100%;
+  }
+  .header-text h1 {
+    font-size: 32px;
+  }
+  .header-text p {
+    font-size: 16px;
   }
 }
 
-@media only screen and (max-width: 1300px) {
+/* ----------- Mobile ----------- */
+@media (max-width: 600px) {
+  #header {
+    background-image: none; /* Remove background image on mobile */
+    min-height: 50vh;
+    padding: 0;
+    display: block;
+  }
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 8px;
+    min-height: 0;
+  }
   .header-text {
-    margin-left: 200px;
-    margin-right: auto;
+    padding: 16px 0;
+    border-radius: 0;
+    background: none;
+    width: 100%;
     text-align: left;
-    max-width: 600px;
+  }
+  .header-text h1 {
+    font-size: 22px;
+  }
+  .header-text p {
+    font-size: 14px;
   }
 }
 
-@media only screen and (max-width: 1190px) {
+/* ----------- Large Screens ----------- */
+@media (max-width: 1650px) {
+  #header {
+    background-size: 650px;
+    background-position: 100% 0;
+  }
+  .container {
+    padding-right: 20%;
+  }
+  .header-text {
+    max-width: 500px;
+  }
+}
+
+/* ----------- Medium Screens ----------- */
+@media (max-width: 1300px) {
+  #header {
+    background-size: 400px;
+    background-position: 100% 0;
+  }
+  .container {
+    padding-right: 15%;
+  }
+  .header-text {
+    max-width: 400px;
+  }
+}
+
+/* ----------- New Media Query ----------- */
+@media (max-width: 915px) {
+  #header {
+    background-size: 220px;
+    background-position: 100% 10%;
+    min-height: unset; /* <-- Add this */
+    height: auto; /* <-- Add this */
+  }
+  .container {
+    padding-right: 5%;
+    min-height: unset; /* <-- Add this */
+    height: auto; /* <-- Add this */
+  }
+  .header-text {
+    max-width: 100%;
+  }
+}
+
+/* ----------- Additional Mobile Styles ----------- */
+@media (max-width: 681px) {
   #header {
     background-image: url(../assets/images/MobileBackground.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
+    min-height: 40vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
-
-  .header-text {
-    margin-left: 100;
-    margin-right: auto;
-    text-align: left;
-    max-width: 500px;
-    padding-left: 32px;
-  }
-}
-
-@media only screen and (max-width: 1140px) {
-  #header {
-    background-position: 100% 20%;
-  }
-
-  .header-text {
-    margin-left: 50px;
-    margin-right: auto;
-    text-align: left;
-    max-width: 400px;
-    padding-left: 20px;
-  }
-}
-
-@media only screen and (max-width: 985px) {
   .container {
-    padding: 2%;
-  }
-}
-@media only screen and (max-width: 915px) {
-  #header {
-    background-position: 100% 10%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 8px;
+    min-height: 0;
+    width: 100%;
+    background: none;
   }
   .header-text {
+    width: 100%;
+    max-width: 100%;
+    padding: 24px 0 0 0; /* Top padding to separate from image */
+    background: none; /* Remove overlay */
+    border-radius: 0;
+    text-align: left;
+    position: static;
+    margin-bottom: 24px; /* Space below text */
+  }
+  /* .header-text h1 {
     font-size: 18px;
   }
-  .header-text h1 {
-    font-size: 36px;
-  }
-}
-@media only screen and (max-width: 860px) {
-  #header {
-    background-size: 600px;
-    background-repeat: no-repeat;
-    background-position: right 0;
-  }
-}
-
-@media only screen and (max-width: 670px) {
-  #header {
-    background-size: 500px;
-  }
-}
-@media only screen and (max-width: 600px) {
+  .header-text p {
+    font-size: 12px;
+  } */
+  #header,
   .container {
-    position: absolute;
-  }
-  #header {
-    background-position: 100% 110%;
+    min-height: unset;
+    height: auto;
   }
 }

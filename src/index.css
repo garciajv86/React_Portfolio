@@ -5,7 +5,9 @@
   box-sizing: border-box;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -35,7 +37,7 @@ body {
     background-size: 600px;
   }
   .header-text {
-    margin-top: 100%;
+    margin-top: 0; /* <-- Fix here */
     font-size: 16px;
   }
   .header-text h1 {
