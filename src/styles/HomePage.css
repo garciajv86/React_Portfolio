@@ -17,6 +17,11 @@
   display: flex;
   align-items: center;
   min-height: 85vh;
+  position: relative;
+}
+
+.mobile-hero {
+  display: none;
 }
 
 .header-text {
@@ -137,43 +142,44 @@
 /* ----------- Additional Mobile Styles ----------- */
 @media (max-width: 681px) {
   #header {
-    background-image: url(../assets/images/MobileBackground.png);
-    background-size: cover;
-    background-position: top center;
-    min-height: 40vh;
+    background-image: none;
+    min-height: unset;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    display: block;
   }
   .container {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0 8px;
-    min-height: 0;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    min-height: unset;
+    height: auto;
     width: 100%;
     background: none;
   }
   .header-text {
     width: 100%;
     max-width: 100%;
-    padding: 24px 0 0 0; /* Top padding to separate from image */
-    background: none; /* Remove overlay */
+    padding: 24px 12px 0 12px;
+    background: none;
     border-radius: 0;
-    text-align: left;
-    position: static;
-    margin-bottom: 24px; /* Space below text */
+    text-align: center;
+    margin: 0 0 0 0;
   }
-  /* .header-text h1 {
-    font-size: 18px;
-  }
-  .header-text p {
-    font-size: 12px;
-  } */
-  #header,
-  .container {
-    min-height: unset;
+  .mobile-hero {
+    display: block;
+    width: 100%;
+    max-width: 50%;
     height: auto;
+    max-height: 100vh; /* Adjust as needed for your design */
+    object-fit: cover;
+    margin: 0;
+    position: static;
+  }
+}
+
+@media (max-width: 601px) {
+  #header {
+    background-image: none !important;
   }
 }
